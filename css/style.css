@@ -1,0 +1,12 @@
+body{
+    background-color: bisque;
+}
+
+.white{
+background-color: white;
+margin: 0;
+}
+
+.container-img img{
+    width: 30px;
+}
