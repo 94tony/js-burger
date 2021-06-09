@@ -5,8 +5,47 @@ body{
 .white{
 background-color: white;
 margin: 0;
+height: 500px;
 }
 
 .container-img img{
     width: 30px;
+}
+header{
+    background-color: orange;
+    height: 70px;
+    position: relative;
+
+}
+header h1 {
+    font-size:  22px;
+}
+
+.top-img img {
+    width:  100px;
+    position: absolute;
+    top: 0;
+    right: -40px;
+    
+}
+
+#discount{
+    width: 400px;
+    height: 15px;
+    background-color: bisque;
+    border: none;
+    border-radius: 10px;
+}
+
+.footerprice{
+    background-color: red;
+    margin:0;
+    width: 50%;
+    height: 50px;
+    color: white;
+}
+
+.position{
+    display: flex;
+    justify-content: space-between;
 }

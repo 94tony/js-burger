@@ -1,6 +1,16 @@
+
+// dai un nome al panino
+var userBurger = prompt("inserisci il nome del panino ")
+var burgerName = document.getElementById("nome")
+
+burgerName.innerHTML = userBurger
+
+
 // VOTTONE / RESULT
 var generator = document.getElementById("random-number")
 var ResultsElement = document.getElementById("Results")
+
+
 // prezzo
 var discountCopoun = 30
 var userCoupon  = document.getElementById("discount")
@@ -20,7 +30,7 @@ generator.addEventListener('click' , function() {
         var prezzosconto = sum-sum/100 *50
         document.getElementById('Results').innerHTML = 'Il costo del tuo burger è:  ' +  " $ "  + parseInt(prezzosconto).toFixed(2);
     } else {
-        ResultsElement.innerHTML = 'Il costo del tuo burger è:  ' +  " $ "  +  sum.toFixed(2);
+        ResultsElement.innerHTML =  " $ "  +  sum.toFixed(2);
     }
 
 
